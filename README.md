@@ -1,5 +1,6 @@
 # tastytrade-api-test
 
+## Setup
 Create a file called `.env` the root of this project with the following data in it:
 
 ```
@@ -13,3 +14,8 @@ SANDBOX_PASSWORD=<SANDBOX_PASSWORD>
 SANDBOX_ACCT_MRGN=<SANDBOX_ACCT_MRGN>
 ```
 Replace all the `<values>` with actual values.
+
+Then run `npm install`
+
+## Running
+`node test.js`
